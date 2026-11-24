@@ -74,3 +74,8 @@
     --shadow-soft-md: 0 8px 24px -4px rgba(15, 23, 42, 0.06), 0 2px 6px -1px rgba(15, 23, 42, 0.04);
     --shadow-soft-lg: 0 16px 32px -6px rgba(15, 23, 42, 0.08), 0 4px 12px -2px rgba(15, 23, 42, 0.04);
 }
+
+/* ซ่อน element ของ Alpine.js ก่อนที่ Alpine จะพร้อมทำงาน */
+[x-cloak] {
+    display: none !important;
+}
